@@ -1,0 +1,19 @@
+name: gql_entity_gen
+description: A package to auto generate GraphQL entity
+version: 0.1.0
+maintainer: Michil Khabarov (@thisisdingo)
+homepage: https://github.com/thisisdingo/gql_entity_gen/
+repository: https://github.com/thisisdingo/gql_entity_gen/
+issue_tracker: https://github.com/thisisdingo/gql_entity_gen/issues
+
+dependencies:
+  args: ^2.3.2
+  http: ^0.13.5
+  
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dev_dependencies: 
+  build_runner: ^2.3.3
+  
