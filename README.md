@@ -18,5 +18,5 @@ After setting up the configuration, all that is left to do is run the package.
 
 ```shell
 flutter pub get
-dart run gql_entiry_gen -a http://localhost:4000/graphql -o lib/model.dart -e "User,Post,Comment"
+dart run gql_entity_gen -a http://localhost:4000/graphql -o lib/model.dart -e "User,Post,Comment"
 ```
